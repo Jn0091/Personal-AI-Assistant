@@ -45,12 +45,12 @@ This assistant listens to **user voice inputs**, converts them into text, proces
 flowchart LR
     A[User Voice Input] --> B[Speech-to-Text Module]
     B --> C[Custom LLM Engine]
-    C --> D[Backend Logic (Node.js / Express)]
-    D --> E[Database (MongoDB)]
-    C --> F[Data Visualization (Python + Plotly)]
+    C --> D[Backend Logic - Node.js & Express]
+    D --> E[Database - MongoDB]
+    C --> F[Data Visualization - Python + Plotly]
     C --> G[Text-to-Speech Module]
     G --> H[AI Voice Output]
-````
+```
 
 ---
 
