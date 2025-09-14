@@ -1,55 +1,54 @@
-
-# 🧠 AI Agent – Personal AI Assistant (In Development)
+# 🧠 AI Agent – Personal AI Assistant (Under Development)
 
 The **AI Agent** is a foundation-level project that combines **AI development** with **full-stack engineering (MERN)**.  
-Its goal is to serve as a **base model** that small startups or developers can adopt, extend, and adapt into their own products.  
+Its purpose is to serve as a **base model** that small startups or developers can adopt, extend, and evolve into their own products.  
 
-This assistant listens to user voice inputs, converts them into text, processes them with **Large Language Models (LLMs)**, and responds back in natural speech — enabling **real-time, conversational AI experiences**.  
+This assistant listens to **user voice inputs**, converts them into text, processes them with a **custom Large Language Model (adapted from open-source and fine-tuned for specific requirements)**, and responds back in **natural speech** — enabling **real-time, conversational AI experiences**.  
 
 ---
 
 ## 🚀 Core Features
-- 🎤 **Voice-to-Text** – Convert user speech into text in real time.  
-- 🧠 **LLM Integration** – Use models like **OpenAI** or **Gemini** for reasoning and conversation.  
-- 🔊 **Text-to-Speech** – Generate human-like voice responses.  
-- 📊 **Basic Data Visualization** – Create charts and insights from structured data.  
-- 🌐 **Full-Stack Support (MERN)** – A working foundation for end-to-end product development.  
+- 🎤 **Voice-to-Text** – Real-time speech transcription  
+- 🧠 **Custom LLM Integration** – In-house adapted model for reasoning & dialogue  
+- 🔊 **Text-to-Speech** – Natural, human-like responses  
+- 📊 **Data Visualization** – Simple insights & charts from structured data  
+- 🌐 **Full-Stack Support (MERN)** – Foundation for end-to-end product development  
 
 ---
 
 ## 🛠️ Core Tech Stack
 
 ### Full-Stack (MERN)
-- **MongoDB** – Context and memory storage  
-- **Express.js** – API handling  
+- **MongoDB** – Context & memory storage  
+- **Express.js** – API gateway & orchestration  
 - **React.js** – Interactive frontend  
-- **Node.js** – Backend orchestration  
+- **Node.js** – Backend services  
 
 ### AI Development
-- **Python** – Core AI integration & pipelines  
-- **OpenAI / Gemini APIs** – Large Language Model processing  
-- **Whisper API** – Voice-to-text transcription  
-- **gTTS / ElevenLabs** – Text-to-speech synthesis  
+- **Python / Go (and other languages)** – AI pipelines & model customization  
+- **Custom LLM** – Fine-tuned from open-source foundation models  
+- **Speech-to-Text** – Voice transcription (Whisper baseline or custom pipeline)  
+- **Text-to-Speech** – Voice synthesis (gTTS or custom module)  
 
 ### Data Visualization
-- **Pandas / NumPy** – Data processing  
-- **Matplotlib / Plotly** – Charting & insights  
+- **Pandas / NumPy** – Data handling & processing  
+- **Matplotlib / Plotly** – Charts & visual insights  
 
-### Deployment (Foundation Level)
-- **Docker** – Containerized services  
-- **Basic Cloud Setup (AWS / Any Cloud)** – Scalable environment for small-scale use  
+### Deployment (Foundation-Level)
+- **Docker** – Containerized environment  
+- **Basic Cloud Setup (AWS / Any Cloud)** – Scalable setup for small-scale adoption  
 
 ---
 
-## 🧩 High-Level Architecture
+## 🧩 Architecture Overview
 ```mermaid
 flowchart LR
-    A[User Voice Input] --> B[Speech-to-Text (Whisper API)]
-    B --> C[LLM Engine (OpenAI / Gemini)]
+    A[User Voice Input] --> B[Speech-to-Text Module]
+    B --> C[Custom LLM Engine]
     C --> D[Backend Logic (Node.js / Express)]
     D --> E[Database (MongoDB)]
     C --> F[Data Visualization (Python + Plotly)]
-    C --> G[Text-to-Speech (gTTS / ElevenLabs)]
+    C --> G[Text-to-Speech Module]
     G --> H[AI Voice Output]
 ````
 
@@ -58,24 +57,24 @@ flowchart LR
 ## 🎯 Roadmap
 
 * 🔐 Add simple authentication (JWT-based)
-* 📱 Add mobile-ready frontend (React Native option)
-* 🗣️ Support multiple languages for voice interaction
-* 📊 Improve data visualization modules
-* 🧩 Explore custom lightweight LLM integration
+* 📱 Prototype mobile support (React Native)
+* 🗣️ Multi-language voice support
+* 📊 Enhanced data visualization modules
+* 🧩 Further optimization of **custom lightweight LLM**
 
 ---
 
 ## 👨‍💻 Developer Role
 
 * Full-stack development with **MERN**
-* AI pipeline integration using **Python + APIs**
+* AI pipeline design with **Python / Go**
+* Building and fine-tuning the **custom LLM**
 * Designing a **scalable foundation architecture**
-* Building core **voice ↔ AI ↔ voice loop**
-* Preparing the project as a **base model for startups**
+* Implementing the core **voice ↔ AI ↔ voice loop**
 
 ---
 
 ## 📌 Status
 
-This project is **in active development**.
-It is not intended as a full enterprise solution but as a **foundation-level AI assistant** that small startups or developers can **adopt and extend** into their own use cases.
+This project is **under active development**.
+It is not a full enterprise solution but a **foundation-level AI assistant** that small startups or developers can **adopt, customize, and extend** for their own workflows.
