@@ -123,35 +123,6 @@ flowchart TD
 
 ---
 
-# 🎯 **2025+ Development Roadmap**
-
-### **Phase 1 – Intelligence Layer**
-
-* Multi-LLM routing (FAST model + DEEP THINK model)
-* Long-term adaptive memory architecture
-* Browser inference (Transformers.js + WebGPU)
-* On-device STT/TTS for offline mode
-
----
-
-### **Phase 2 – Integrations Layer**
-
-* Mobile apps (React Native / Flutter)
-* Plugin ecosystem (CRM, Slack, Gmail, Notion, WhatsApp, Stripe, Jira)
-* Temporal.io / BullMQ for distributed tasks
-* Real-time workflow triggers
-
----
-
-### **Phase 3 – AI Expansion Layer**
-
-* Emotional speech modulation
-* Multi-agent collaboration
-* Personalized persona tuning
-* Vision intelligence (OCR + image reasoning)
-
----
-
 # 👨‍💻 **Developer Responsibilities**
 
 ### **Full-Stack Engineering**
